@@ -2,7 +2,7 @@
 // When you deploy your backend to the cloud (Render/Railway), paste the URL into CLOUD_API_URL.
 // The app will automatically use the global cloud URL, allowing any phone on cellular networks to connect!
 
-export const CLOUD_API_URL = ''; // e.g., 'https://finwise-api.onrender.com/api'
+export const CLOUD_API_URL = 'https://finwise-backend-gbece5ewe9e4czf7.centralindia-01.azurewebsites.net/api';
 export const LOCAL_API_URL = 'http://10.198.47.115:5001/api';
 
 export const API_BASE_URL = CLOUD_API_URL || LOCAL_API_URL;
