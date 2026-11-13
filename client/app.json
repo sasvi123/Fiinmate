@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "FinWise",
+    "slug": "finwise",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.finwise.studentapp",
+      "buildNumber": "2"
+    },
+    "android": {
+      "package": "com.finwise.studentapp",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "70d93d5d-2f17-4eba-a910-479bf19fc3e3"
+      }
+    }
+  }
+}
