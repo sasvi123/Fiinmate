@@ -1,0 +1,10 @@
+{
+  "name": "fiinmate-app",
+  "version": "1.0.0",
+  "description": "FinWise personal finance management app for university students",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix server && npm run build --prefix server",
+    "start": "node server/dist/index.js"
+  }
+}
