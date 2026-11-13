@@ -2,18 +2,19 @@
   "expo": {
     "name": "FinWise",
     "slug": "finwise",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.finwise.studentapp",
-      "buildNumber": "2"
+      "buildNumber": "3"
     },
     "android": {
       "package": "com.finwise.studentapp",
-      "versionCode": 2,
+      "versionCode": 3,
+      "usesCleartextTraffic": true,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
